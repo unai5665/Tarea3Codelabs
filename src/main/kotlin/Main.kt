@@ -29,7 +29,22 @@ fun App(modifier: Modifier = Modifier, words: List<String> = listOf("World", "Co
 
     }
 
+@Composable
+fun Basic(word: List<String>, modifier: Modifier = Modifier) {
+    Column (modifier = modifier
+            .padding(10.dp)
+            .fillMaxWidth()
+            .background(color = Color.Blue)){
+        Text(text = " A Alejandro")
+        Text(text = "no le")
+        Text(text = "gustan")
+        Text(text = "los")
+        Text(text = "moros")
 
+
+    }
+
+}
 
 
 fun main() = application {
